@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 8px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgrey;
+}
+form{
+    padding: 8px;
+    margin: 0px;
+}
+div{
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+}
