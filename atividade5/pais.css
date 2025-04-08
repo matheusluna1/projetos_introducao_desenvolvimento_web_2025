@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.barranav{
+    background-color: #d9d9d9;
+    width: 15vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    background-color: #04c9f4;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.barralogo{
+    width: 100vw;
+    background-color: #e7e7e7;
+}
+
+footer{
+    background-color: #ffffff;
+    padding: 10px;
+    color: #04c9f4;
+    text-align: center;
+}
+
+nav a{
+    border-bottom: solid 2px #ffffff;
+    padding: 5px
+}
+
+.home{
+    color: #ffffff;
+}
+
+.navazul{
+    background-color: #04c9f4;
+    width: 100vw;
+    color: #ffffff;
+}
+
+.cadastros{
+    color: #ffffff;
+}
+
+.pais{
+    color: black;
+    background-color: #04c9f4;
+    width: 100vw;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 17vh;
+    background-color: #d9d9d9;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+label{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+input{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    border: none;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 58vw;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 62.1vh;
+}
+.azul{
+    background-color: #04c9f4;
+    border: none;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.excluir{
+    background-color: red;
+    border: none;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.cancelar{
+    background-color: #ffffff;
+    border: none;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #04c9f4;
+}
+
+.salvar{
+    padding: 8px;
+    border: none;
+    background-color: #04c9f4;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 700px){
+    .barranav{
+        width: 100vw;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }
+    footer{
+        padding: 10px;
+        font-size: 0.7em;
+    }
+    .formulario{
+        width: 90vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .sigla{
+        width: 90vw;
+    }
+    .pais{
+        width: 100vw;
+    }
+    .siglapais{
+        flex-direction: column;
+    }
+    input{
+        padding: 10px;
+    }
+    .azul{
+        padding: 5px;
+    }
+    .excluir{
+        padding: 5px;
+    }
+    .cancelar{
+        padding: 5px;
+    }
+    .salvar{
+        padding: 5px;
+    }
+    .button{
+        margin-left: 10px;
+        font-size: 0.5em;
+        margin-bottom: 9vh;
+    }
+}
