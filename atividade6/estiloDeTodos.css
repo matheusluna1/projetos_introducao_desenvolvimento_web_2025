@@ -1,0 +1,39 @@
+body{
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.esquerda{
+    grid-column: 1/2;
+}
+.direita{
+    grid-column: 2/3;
+}
+.titulo{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.corpo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+button{
+    background-color: red;
+    border: solid 1px black;
+    width: 80px;
+    height: 20px;
+}
+.botao{
+    background-color: blue;
+    border: solid 1px black;
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+}

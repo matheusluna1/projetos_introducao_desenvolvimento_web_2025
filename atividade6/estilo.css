@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item{
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    justify-content: center;
+}
+
+.container{
+    background-color:  white;
+    align-items: space-between;
+    border-right: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ 

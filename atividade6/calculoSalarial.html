@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8. CÁLCULO SALARIAL</title>
+    <script src="calculoSalarial.js"></script>
+    <link rel="stylesheet" href="estiloDeTodos.css">
+</head>
+<body> 
+    <header class="titulo">
+        <h2>8. Cálculo Salarial</h2>
+    </header>
+    <div class="grid">
+        <div class="esquerda">
+            <section class="corpo">
+                <label for="valorHora">Digite quanto o usuário ganha por hora</label>
+                <input type="number" id="valorHora">
+            </section>
+            <section class="corpo">
+                <label for="horasTrabalhadas">Digite quantas horas o usuário trabalhou no mês</label>
+                <input type="number" id="horasTrabalhadas">
+            </section>
+            <section class="corpo">
+            <button id="btCalcular" onclick="calcular()">Calcular</button>
+            </section>
+            <section class="corpo">
+                <p id="resultado"></p>
+            </section>
+        </div>
+        <div class="direita">
+            <a href="index.html"><button class="botao">Página Inicial</button></a>
+            <a href="fahreinheitParaCelsius.html"><button class="botao">Atividade 9</button></a>
+        </div>
+    </div>
+</body>
+</html>
