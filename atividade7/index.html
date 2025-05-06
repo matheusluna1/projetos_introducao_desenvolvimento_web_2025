@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form id="formulario">
+        <section class="container">
+            <h2>Formulário de Contato</h2>
+            <section class="formulario">
+                <section>
+                    <label for="nome" class="nome">Nome:</label>
+                    <input type="text" id="idnome">
+                    <div id="nomeErro" class="error-message">Informe seu nome</div><br>
+                </section>
+                <section>
+                    <label for="e-mail" class="email">E-mail:</label>
+                    <input type="email" id="idemail">
+                    <div id="emailErro" class="error-message">Informe um e-mail válido</div><br>
+                </section>
+                <section>
+                    <label for="mensagem" class="mensagem">Mensagem:</label>
+                    <input type="text" id="idmensagem">
+                    <div id="mensagemErro" class="error-message">Insira uma mensagem</div><br>
+                </section>
+                <section>
+                    <button type="button" id="btEnviar" onclick="acao()">Enviar</button>
+                </section>
+                <p id="resultado"></p>
+            </section>
+    </form>
+</body>
+
+</html>
